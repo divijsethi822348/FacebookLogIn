@@ -68,11 +68,6 @@ public class MainActivity extends AppCompatActivity {
             public void onSuccess(LoginResult loginResult) {
                 Toast.makeText(MainActivity.this, "Success", Toast.LENGTH_SHORT).show();
                 setFacebookData(loginResult);
-
-
-
-
-
             }
 
             @Override
@@ -149,10 +144,6 @@ public class MainActivity extends AppCompatActivity {
                             Log.i("Login"+ "FirstName", firstName);
                             Log.i("Login" + "LastName", lastName);
                             Log.i("Login" + "Gender", gender);
-
-
-
-
 
                         } catch (JSONException e) {
                             e.printStackTrace();
